@@ -9,8 +9,6 @@ using namespace cv;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	System::String^ dir = System::IO::Directory::GetCurrentDirectory();
-
 	vector<string> gtset; 
 	string line;
 	Mat image = imread("./resource/demo.jpg");
